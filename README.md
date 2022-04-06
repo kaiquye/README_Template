@@ -32,7 +32,6 @@ Este programa, é responsável por automatizar todo o processo de recrutamento s
 
 + Download : https://github.com/coreybutler/nvm-windows/releases/tag/1.1.9
 
-
 <h2>👷 Construído com </h2>
 
 Principais ferramentas.
@@ -87,11 +86,7 @@ Principais ferramentas.
      + + jsonwebtoken/logger/helmet/response err
      + /Utils
      + + Configs
-  
-    + 📧 
-
-
-
+    
 
 ## 🤖 Publicação
 
