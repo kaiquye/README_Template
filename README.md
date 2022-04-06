@@ -39,9 +39,9 @@ Principais ferramentas.
 
 + Server 
   + <a href="https://www.npmjs.com/package/helmet" >  helmet </a> ajuda a proteger aplicativos Express definindo vários cabeçalhos HTTP
-  + <a href="https://www.npmjs.com/package/express-jwt" >  express-jwt </a> ajuda a proteger aplicativos Express definindo vários cabeçalhos HTTP
+  + <a href="https://www.npmjs.com/package/express-jwt" >  express-jwt </a> Todas as rotas da aplicação são protegidas.
   + <a href="https://www.npmjs.com/package/helmet" >  express </a> Estrutura web.
-  + <a href="https://www.npmjs.com/package/express" >  compression </a> ajuda a proteger aplicativos Express definindo vários cabeçalhos HTTP
+  + <a href="https://www.npmjs.com/package/express" >  compression </a> 
   + <a href="https://www.npmjs.com/package/body-parser" >  body-parser </a> Analisar os corpos de solicitação de entrada em um middleware antes de seus manipuladores, disponíveis sob a propriedade.req.body .
   + <a href="https://www.npmjs.com/package/bcrypt" >  bcrypt </a> criptografia de senhas . HTTP
   + <a href="https://www.npmjs.com/package/axios" >  axios </a> HTTP baseado em promessas para o navegador e NodeJs
