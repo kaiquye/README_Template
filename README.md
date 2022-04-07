@@ -29,8 +29,12 @@ Este programa, é responsável por automatizar todo o processo de recrutamento s
 
 <h2>⚠️ Pré-requisitos</h2>
 - Node.Js Version 14.16.0 
-
 + Download : https://github.com/coreybutler/nvm-windows/releases/tag/1.1.9
+
+  ```bash
+      install cmake --install 'ADD_CMAKE_TO_PATH=System'
+      npm install --ignore-scripts=false --verbose
+  ````
 
 <h2>👷 Construído com </h2>
 
@@ -90,8 +94,7 @@ Principais ferramentas.
      + + + + jsonwebtoken/logger/helmet/response err
      + + /Utils
       + + + + Configs
-    
-
+      
 ## 🤖 Publicação
 
 
