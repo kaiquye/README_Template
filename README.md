@@ -55,12 +55,13 @@ Principais ferramentas.
 
 
 <!-- Implantação -->
+
 <h1>⚙️ Implantação </h1>
 
   + 📧 Conexão com SOLIDES-RH
     + A conexão é feita pela API do Solides RH. 
     + O Token de acesso pode ser copiado na parte de configurações do painel administrativo do SolidesRH.
-    + **Diretório**
+    + **Diretório** de configuração.
     + + **api** : src/config/setupSolides.
     + + **Controller** : modules/solides.
     
@@ -70,22 +71,25 @@ Principais ferramentas.
     + + Redefinição de senha
     + + Aprovação de candidato.
     + + Rejeição de candidato.
-    + + Criar nova vaga.
+    + + Solicitação de Contratação.
     
    + 📧 Estrutura de pastas.
      + **Server**
-     + /Modules 
-     + + Routes/Controller/Model
-     + /Database
-     + + Database Config
-     + /Doc 
-     + + Documentation API config
-     + /Email
-     + + Send e-mail
-     + /Middleware
-     + + jsonwebtoken/logger/helmet/response err
-     + /Utils
-     + + Configs
+     + **/src**
+     +  + /Modules 
+     + + + + Routes/Controller/Model
+     + + /Database
+     + + + + Database Config
+     + + /Doc 
+     + + + + Documentation API config swagger.
+     + + /Middlewares
+     + + + + Configs : **logger** , **response** : responseHTTP, **security** : helmet, **unauthorized** : error token,
+     + + /Email
+     + + + + Send e-mail
+     + + /Middleware
+     + + + + jsonwebtoken/logger/helmet/response err
+     + + /Utils
+      + + + + Configs
     
 
 ## 🤖 Publicação
